@@ -5,6 +5,8 @@
 
 using namespace geode::prelude;
 
+#ifndef GEODE_IS_MACOS
+
 class $modify (HardStreak)
 {
     void updateStroke(float p0)
@@ -38,3 +40,5 @@ class $modify (PlayerObject)
 
     QOLMOD_MOD_ALL_HOOKS("editor-wave-trail")
 };
+
+#endif
