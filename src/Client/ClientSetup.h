@@ -494,6 +494,7 @@ public:
             "no-shake",
             "custom-trans",
             "menu-bg-blur",
+	    "editor-wave-trail"
         };
 
         for (auto hack : macInc)
